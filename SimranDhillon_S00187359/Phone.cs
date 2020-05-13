@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 namespace SimranDhillon_S00187359
 {
     
-    class Phone
-    {     
+    public class Phone
+    {
+        public int ID { get; set; }
         public string Name { get; set; }
         public float Price { get; set; }
         public string OperatingSystem { get; set; }
@@ -16,11 +17,9 @@ namespace SimranDhillon_S00187359
         public string Phone_Image { get; set; }
 
 
-        public float IncreasePrice()
+        public float IncreasePrice(float percentage)
         {
-            float percentage, price;
-            Console.WriteLine("Enter Percentage Increase For The Price : {0}",Price);
-            percentage = float.Parse(Console.ReadLine());
+            float price; 
             price = percentage * Price;
             Price += price;
             return Price;

@@ -20,9 +20,36 @@ namespace SimranDhillon_S00187359
     /// </summary>
     public partial class MainWindow : Window
     {
+        PhoneData db = new PhoneData();
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            var query = from p in db.phones
+                        orderby p.ID
+                        select p.Name;
+
+            lbxPhones.ItemsSource = query.ToList();
+        }
+
+        private void LbxPhones_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            string name = (string)lbxPhones.SelectedValue;
+
+            var query = from p in db.phones
+                        where p.Name == name
+                        select p.Price;
+
+            //string imageName = (lbxPhones.SelectedItem as Phone).Phone_Image;
+            //imgPhoneImage.Source = new BitmapImage(new Uri($"/Images/{imageName}", UriKind.Relative));
+
+            float price = query.ToList().First();
+
+            txtPrice.Text = string.Format("{0:c}", price);
         }
     }
 }
