@@ -44,8 +44,16 @@ namespace SimranDhillon_S00187359
                         where p.Name == name
                         select p.Price;
 
-            //string imageName = (lbxPhones.SelectedItem as Phone).Phone_Image;
-            //imgPhoneImage.Source = new BitmapImage(new Uri($"/Images/{imageName}", UriKind.Relative));
+            //Could Not Get Images to Display
+
+            //string imageName = (string)lbxPhones.SelectedItem;
+            //if (imageName != null)
+            //{
+            //    imageName = (lbxPhones.SelectedItem as Phone).Phone_Image;
+            //    imgPhoneImage.Source = new BitmapImage(new Uri($"/Images/{imageName}", UriKind.Relative));
+            //}
+            
+            
 
             float price = query.ToList().First();
 
