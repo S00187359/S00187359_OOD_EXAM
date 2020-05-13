@@ -18,3 +18,9 @@ C:\Users\Gaming PC\Documents\GitHub\S00187359_OOD_EXAM\SimranDhillon_S00187359\b
 C:\Users\Gaming PC\Documents\GitHub\S00187359_OOD_EXAM\SimranDhillon_S00187359\bin\Debug\EntityFramework.xml
 C:\Users\Gaming PC\Documents\GitHub\S00187359_OOD_EXAM\SimranDhillon_S00187359\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Gaming PC\Documents\GitHub\S00187359_OOD_EXAM\SimranDhillon_S00187359\obj\Debug\SimranDhillon_S00187359.csproj.CopyComplete
+C:\Users\Gaming PC\Documents\GitHub\S00187359_OOD_EXAM\SimranDhillon_S00187359\bin\Debug\MaterialDesignColors.dll
+C:\Users\Gaming PC\Documents\GitHub\S00187359_OOD_EXAM\SimranDhillon_S00187359\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Gaming PC\Documents\GitHub\S00187359_OOD_EXAM\SimranDhillon_S00187359\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Gaming PC\Documents\GitHub\S00187359_OOD_EXAM\SimranDhillon_S00187359\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Gaming PC\Documents\GitHub\S00187359_OOD_EXAM\SimranDhillon_S00187359\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Gaming PC\Documents\GitHub\S00187359_OOD_EXAM\SimranDhillon_S00187359\obj\Debug\App.baml
